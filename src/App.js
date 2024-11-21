@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <PointerParticles />
-      <h1
+      <h1 class="glowing-text"
         style={{
           textAlign: "center",
           marginTop: "20px",
