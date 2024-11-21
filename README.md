@@ -103,7 +103,7 @@ this.color = `hsl(${hue}deg 90% 60%)`;
 ![Desktop Screenshot](MagicB.jpg) 
 
 ### Mobile Experience  
-![Mobile Screenshot](MagicA.jpg)  
+![Mobile Screenshot](magicA.jpg)  
 
 ---
 
