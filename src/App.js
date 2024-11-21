@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import PointerParticles from "./pointerparticles";
+import "./index.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <PointerParticles />
+      <h1
+        style={{
+          textAlign: "center",
+          marginTop: "20px",
+          fontSize: "2.5rem",  
+          color: "#fff",
+          textShadow: "0 0 10px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.6)",
+          animation: "glow 1.5s ease-in-out infinite alternate"
+        }}
+      >
+        Welcome to Mystic Sprinkle! <br /> Have Fun here :) 
+      </h1>
     </div>
   );
 }
